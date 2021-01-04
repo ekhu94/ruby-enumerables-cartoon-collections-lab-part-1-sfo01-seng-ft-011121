@@ -1,7 +1,7 @@
 def greet_characters(arr)
-  arr.each { |ele| puts "Hello #{ele}!" }
+  arr.each { |name| puts "Hello #{name}!" }
 end
 
 def list_dwarves(arr)
-  arr.each_with_index { |ele, i| puts "#{i + 1}. #{ele}" }
+  arr.each_with_index { |name, i| puts "#{i + 1}. #{name}" }
 end
